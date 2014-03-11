@@ -39,4 +39,5 @@ setup(
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
     ],
+    package_dir={'smartystreets': 'smartystreets'}
 )
