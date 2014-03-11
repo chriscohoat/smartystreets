@@ -23,7 +23,7 @@ setup(
     description="An easy-to-use SmartyStreets Geocoding API wrapper.",
     long_description=long_description,
     packages=[
-        'smartystreets'
+        'smartystreets',
     ],
     install_requires=[
         'requests',
@@ -38,6 +38,5 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-    ],
-    package_dir={'smartystreets': 'smartystreets'}
+    ]
 )
